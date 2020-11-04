@@ -26,3 +26,7 @@ components/camel-cxf/activemq-data
 .flattened-pom.xml
 .java-version
 node_modules/
+
+
+# my ignore
+src/data/id_rsa_pem
