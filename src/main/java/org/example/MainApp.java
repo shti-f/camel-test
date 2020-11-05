@@ -13,7 +13,8 @@ public class MainApp {
     public static void main(String... args) throws Exception {
         Main main = new Main();
         main.configure().addRoutesBuilder(new MyRouteBuilder());
-        main.run(args);
+        main.start();
+        Thread.sleep(2000);
     }
 
 }
