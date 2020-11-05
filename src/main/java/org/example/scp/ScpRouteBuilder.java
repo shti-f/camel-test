@@ -12,7 +12,7 @@ public class ScpRouteBuilder extends RouteBuilder {
     String copiedFileName = ""; // ""の場合はファイル名そのままコピーされる。指定した場合はそのファイル名としてコピーされる。
     String uri = String.format("%s@%s/%s%s", user, ip, destination, copiedFileName);
 
-    String privateKeyFileUri = "src/data/id_rsa_pem"; // 秘密鍵（PEM形式）のURI
+    String privateKeyFileUri = "src/main/resources/id_rsa_pem"; // 秘密鍵（PEM形式）のURI
     String parameter = String.format("?privateKeyFile=%s&strictHostKeyChecking=no", privateKeyFileUri);
 
     public void configure(){

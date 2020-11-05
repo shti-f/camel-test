@@ -29,4 +29,4 @@ node_modules/
 
 
 # my ignore
-src/data/id_rsa_pem
+src/main/resources/id_rsa_pem
