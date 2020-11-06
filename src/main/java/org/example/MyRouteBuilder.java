@@ -15,7 +15,7 @@ public class MyRouteBuilder extends RouteBuilder {
         // here is a sample which processes the input files
         // (leaving them in place - see the 'noop' flag)
         // then performs content based routing on the message using XPath
-        from("file:src/data?noop=true")
+        from("file:src/data/main?noop=true")
             .choice()
                 .when(xpath("/person/city = 'London'"))
                     .log("UK message")

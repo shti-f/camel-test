@@ -47,6 +47,12 @@
       <artifactId>camel-jsch</artifactId>
     </dependency>
 
+    <!--  Paho  -->
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-paho</artifactId>
+    </dependency>
+
     <!-- logging -->
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
